@@ -37,9 +37,13 @@ namespace Geometry
             {
                 Console.WriteLine("The two lines are equal");
             }
-            else
+            if(lengthOfLine1 > lengthOfLine2)
             {
-                Console.WriteLine("The two lines are not equal");
+                Console.WriteLine("Line1 is greater than Line2");
+            }
+            if (lengthOfLine1 < lengthOfLine2)
+            {
+                Console.WriteLine("Line2 is greater than Line1");
             }
 
 
